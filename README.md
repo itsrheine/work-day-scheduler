@@ -1,11 +1,1 @@
-## Title
-Work Day Scheduler
-
-## Description
-
-
-## Link
-
-
-## Screenshot
-![Screenshot]()
+# Work Day Scheduler Starter Code
