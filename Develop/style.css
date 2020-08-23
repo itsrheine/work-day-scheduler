@@ -58,60 +58,20 @@ textarea{
 }
 
 .saveBtn {
+  padding: 0.1rem;
+  background-color: #4cd863;
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  color: white;
+}
+
+.trashBtn {
+  padding: 0.1rem;
+  background-color: #4cd863;
+  border-left: 1px solid black;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
-}
-
-.timeblock-time {
-  padding: 1.5rem;
-  background-color: #4cd863;
-  color: white;
-}
-
-.timeblock-entry {
-  padding: 1.5rem;
-  width: 100%;
-}
-
-.timeblock-save {
-  padding: 1.5rem;
-  background-color: #4cd863;
-  color: white;
-}
-
-.timeblock-container {
-  display: flex;
-  width: 100%;
-  font-size: 1rem;
-  border: 0.1rem solid rgb(90, 230, 136, 0.5);
-  background-color: white;
-}
-
-/* forms */
-form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-input {
-  margin-bottom: 1rem;
-  width: 20rem;
-  padding: 1.5rem;
-  font-size: 1.4rem;
-  border: none;
-  box-shadow: 0 0.1rem 1.4 rem 0 rgba(90, 230, 136, 0.5);
-}
-
-input::placeholder {
-  color: #aaa;
 }

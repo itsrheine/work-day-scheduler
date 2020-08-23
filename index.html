@@ -19,6 +19,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="Develop/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -33,51 +36,124 @@
 
 
     <div class="container">
-      <!-- Timeblocks go here -->
-      <div class="timeblock-container">
-          <p class="timeblock-time">9 AM</p>
-            <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-          <p class="timeblock-save">Save</p>
+      <div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">9 A.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
       </div>
-      <div class="timeblock-container">
-          <p class="timeblock-time">10 AM</p>
-          <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-          <p class="timeblock-save">Save</p>
-      </div>
-      <div class="timeblock-container">
-        <p class="timeblock-time">11 AM</p>
-        <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-        <p class="timeblock-save">Save</p>
-      </div>
-      <div class="timeblock-container">
-        <p class="timeblock-time">12 PM</p>
-        <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-        <p class="timeblock-save">Save</p>
-      </div>
-      <div class="timeblock-container">
-        <p class="timeblock-time">1 PM</p>
-        <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-        <p class="timeblock-save">Save</p>
-      </div>
-      <div class="timeblock-container">
-        <p class="timeblock-time">2 PM</p>
-        <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-        <p class="timeblock-save">Save</p>
-      </div>
-      <div class="timeblock-container">
-        <p class="timeblock-time">3 PM</p>
-        <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-        <p class="timeblock-save">Save</p>
-      </div>
-      <div class="timeblock-container">
-        <p class="timeblock-time">4 PM</p>
-        <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-        <p class="timeblock-save">Save</p>
-      </div>
-      <div class="timeblock-container">
-        <p class="timeblock-time">5 PM</p>
-        <input type="text" name="username" class="timeblock-entry" placeholder="Entry Here"/>
-        <p class="timeblock-save">Save</p>
+      <div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">10 A.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
+      </div><div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">11 A.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
+      </div><div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">12 P.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
+      </div><div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">1 P.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
+      </div><div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">2 P.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
+      </div><div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">3 P.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
+      </div><div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">4 P.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
+      </div><div class="row" id="scheduler">
+        <div class="col-sm-1" id="column1">
+          <p id="time">5 P.M.</p>
+        </div>
+        <div class="col-sm-10" id="column2">
+          <p><textarea class="form-control text-black">Hi</textarea></p>
+        </div>
+        <div class="col-sm-1">
+          <button class="saveBtn">
+            <i class="fa fa-save" style="font: size 15px;"></i>
+          </button>
+        </div>
+
       </div>
     </div>
 
