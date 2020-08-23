@@ -46,8 +46,8 @@ var auditTask = function() {
     // loop through time
     for (i = 1; i < 10; i++){
     
-    
-    var timeBlock = $("#row" + i).find("h6").html();
+    //
+    var timeBlock = $("#row" + i).find("p").html();
     
     // Grab time to convert to an object
     var timeObj = moment(timeBlock, "HHA");
