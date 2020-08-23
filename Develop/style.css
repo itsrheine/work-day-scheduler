@@ -4,7 +4,6 @@ body {
   text-align: center;
 }
 
-
 textarea{
   background: transparent;
   border: 0.02rem solid #3cc2da;
@@ -39,7 +38,7 @@ textarea[disabled]:hover {
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #06AED5;
 }
 
 h1 {
@@ -62,28 +61,45 @@ h1 {
 }
 
 .past {
+  border: 1px solid #3cc2da;
   border-left: 0.7rem solid #3cc2da; 
   background-color: #c3dde2;
   color:  black;
 }
 
 .present {
+  border: 1px solid #e05952;
   border-left: 0.7rem solid #e05952;
   background-color: #ebb7b4;
   color: black;
 }
 
+.present:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #e05952;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
 .future {
-  border-left: 0.7rem solid rgba(90, 230, 136, 0.5);; 
+  border: 1px solid rgba(90, 230, 136, 0.5);
+  border-left: 0.7rem solid rgba(90, 230, 136, 0.5); 
   background-color: #addbad;
   color: black;
+}
+
+.future:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(90, 230, 136, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
 }
 
 .saveBtn {
   padding: 1.5rem;
   background-color: #06AED5;
-  color: black;
-  border-left: 1px solid black;
+  color: white;
+  border: 1px solid #06AED5;
   text-align: center;
 }
 
