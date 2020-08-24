@@ -8,4 +8,4 @@ A fun interactive workday scheduler for professionals.
 https://itsrheine.github.io/work-day-scheduler/
 
 ## Screenshot
-![Screenshot](assets/img/Screenshot_1.JPG)
+![Screenshot](Develop/assets/Screenshot.JPG)
