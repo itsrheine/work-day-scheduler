@@ -115,3 +115,15 @@ h1 {
   box-shadow: none;
   transform: none;
 }
+
+.hour {
+  width: 100px;
+}
+
+.entryArea {
+  width: calc(100% - 200px);
+}
+
+.saveBtn {
+  width: 100px;
+}
